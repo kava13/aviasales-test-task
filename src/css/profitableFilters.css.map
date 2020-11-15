@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,gBAAS,CAAC;EACN,OAAO,EAAE,IAAI;CAAG;;AACnB,AAAD,eAAQ,CAAC;EACL,UAAU,EAAE,OAAO;EACnB,MAAM,EAAE,iBAAiB;CAAG",
+    "sources": [
+        "../sass/profitableFilters.sass"
+    ],
+    "names": [],
+    "file": "profitableFilters.css"
+}

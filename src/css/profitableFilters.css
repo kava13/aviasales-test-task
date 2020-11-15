@@ -1,0 +1,11 @@
+.tickets-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tickets-button {
+  background: #FFFFFF;
+  border: 1px solid #DFE5EC;
+}
+/*# sourceMappingURL=profitableFilters.css.map */

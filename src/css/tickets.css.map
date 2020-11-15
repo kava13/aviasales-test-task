@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,cAAO,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,UAAU;CAAG",
+    "sources": [
+        "../sass/tickets.sass"
+    ],
+    "names": [],
+    "file": "tickets.css"
+}
