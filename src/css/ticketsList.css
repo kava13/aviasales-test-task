@@ -1,5 +1,6 @@
 .tickets-list {
   list-style: none;
+  padding-left: 0px;
 }
 
 .tickets-list__item {

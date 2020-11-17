@@ -4,7 +4,7 @@ import axios from 'axios';
 import addMinutes from 'date-fns/addMinutes';
 import format from 'date-fns/format';
 
-import { getTickets, filteredTicketsSelector } from '../../selectors/index.js';
+import { filteredTicketsSelector } from '../../selectors/index.js';
 import '../../css/ticketsList.css';
 
 
