@@ -5,12 +5,12 @@
 }
 
 .tickets-button {
-  background: #FFFFFF;
-  border: 1px solid #DFE5EC;
+  background: #ffffff;
+  border: 1px solid #dfe5ec;
   font-weight: 600;
   font-size: 12px;
   padding: 15px;
-  border: 1px solid #DFE5EC;
+  border: 1px solid #dfe5ec;
   border-radius: 5px;
   outline: none;
   cursor: pointer;
@@ -28,7 +28,7 @@
 }
 
 .tickets-button__active {
-  background: #2196F3;
-  color: #FFFFFF;
+  background: #2196f3;
+  color: #ffffff;
 }
 /*# sourceMappingURL=profitableFilters.css.map */

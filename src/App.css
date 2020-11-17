@@ -1,23 +1,22 @@
-
-
 * {
   box-sizing: border-box;
 }
 
-body, button {
+body,
+button {
   width: 100%;
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans';
-  background-color: #F3F7FA;
+  font-family: "Open Sans";
+  background-color: #f3f7fa;
 }
 
 .container {
   margin: auto;
   max-width: 752px;
 }
-    
+
 button {
   outline: none;
   cursor: pointer;
@@ -26,5 +25,3 @@ button {
 a:hover {
   cursor: pointer;
 }
-    
-    

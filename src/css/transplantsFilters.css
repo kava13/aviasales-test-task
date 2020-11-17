@@ -4,11 +4,11 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  background: #FFFFFF;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #ffffff;
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   padding: 20px 0px;
 }
@@ -43,7 +43,7 @@
 }
 
 .tickets-transplants > label:hover {
-  background: #F1FCFF;
+  background: #f1fcff;
 }
 
 .tickets-transplants > label > input:checked ~ span {
