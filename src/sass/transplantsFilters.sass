@@ -5,4 +5,30 @@
         background: #FFFFFF
         box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
         border-radius: 5px
-        padding: 20px
+        padding: 20px 0px
+        &__text
+            font-weight: 600
+            font-size: 12px
+            margin-bottom: 12px
+            padding-left: 20px
+            padding-right: 20px
+        &__checkbox
+            width: 20px
+            height: 20px
+            background-image: url('../img/Form.png')
+            margin-right: 10px
+        > label
+            display: flex
+            font-weight: normal
+            font-size: 13px
+            margin-bottom: 20px
+            padding-left: 20px
+            > input
+                display: none
+            &:hover
+                background: #F1FCFF
+
+.tickets-transplants > label > input:checked ~ span
+    width: 20px
+    height: 20px
+    background-image: url('../img/Checkbox.png')

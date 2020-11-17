@@ -39,7 +39,9 @@ class TransplantsFilters extends React.Component {
       return checkboxes.map( (item) => {
         return (
           <label>
+          
             <input type='checkbox' checked={transplantsFilterValues[item.name]} name={item.name} onChange={this.handleChange()}></input>
+            <span className="tickets-transplants__checkbox"></span>
             {item.text}
           </label>
         );
@@ -51,6 +53,7 @@ class TransplantsFilters extends React.Component {
     return (
       
       <div className="tickets-transplants">
+      <span className="tickets-transplants__text">КОЛИЧЕСТВО ПЕРЕСАДОК</span>
       {this.renderCheckboxes()}
       </div>
     );

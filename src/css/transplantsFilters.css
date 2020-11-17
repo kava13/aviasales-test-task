@@ -10,6 +10,45 @@
   -webkit-box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 0px;
+}
+
+.tickets-transplants__text {
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tickets-transplants__checkbox {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Form.png");
+  margin-right: 10px;
+}
+
+.tickets-transplants > label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: normal;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.tickets-transplants > label > input {
+  display: none;
+}
+
+.tickets-transplants > label:hover {
+  background: #F1FCFF;
+}
+
+.tickets-transplants > label > input:checked ~ span {
+  width: 20px;
+  height: 20px;
+  background-image: url("../img/Checkbox.png");
 }
 /*# sourceMappingURL=transplantsFilters.css.map */
